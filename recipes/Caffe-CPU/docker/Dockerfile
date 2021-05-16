@@ -1,6 +1,6 @@
 # Dockerfile for Caffe-CPU for use with Batch Shipyard on Azure Batch
 
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190515
 MAINTAINER Fred Park <https://github.com/Azure/batch-shipyard>
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
