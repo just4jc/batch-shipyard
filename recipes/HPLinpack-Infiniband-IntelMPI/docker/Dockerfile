@@ -1,6 +1,6 @@
 # Dockerfile for Linpack-Intel-Infiniband for use with Batch Shipyard on Azure Batch
 
-FROM centos:7.1.1503
+FROM centos:centos7
 MAINTAINER Fred Park <https://github.com/Azure/batch-shipyard>
 
 # set up base and ssh keys
