@@ -1,6 +1,6 @@
 # Dockerfile for NAMD-Infiniband for use with Batch Shipyard on Azure Batch
 
-FROM centos:7.1.1503
+FROM centos:7
 MAINTAINER Fred Park <https://github.com/Azure/batch-shipyard>
 
 # set up base
