@@ -22,3 +22,4 @@ python-dateutil==2.7.3
 requests==2.18.4
 ruamel.yaml==0.15.37
 scandir==1.7; python_version < '3.5'
+urllib3>=1.26.18 # not directly required, pinned by Snyk to avoid a vulnerability
