@@ -1,6 +1,6 @@
 # Dockerfile for mxnet-cpu for use with Batch Shipyard on Azure Batch
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 MAINTAINER Fred Park <https://github.com/Azure/batch-shipyard>
 
 # install base system
