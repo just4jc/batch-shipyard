@@ -21,6 +21,6 @@ RUN curl -fSsL https://github.com/singularityware/singularity/releases/download/
     && make -j4 \
     && make install
 
-FROM alpine:3.7
+FROM alpine:3.18.12
 
 COPY --from=0 /opt/singularity /singularity
