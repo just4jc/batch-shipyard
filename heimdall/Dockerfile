@@ -1,6 +1,6 @@
 # Dockerfile for Azure/batch-shipyard (Heimdall)
 
-FROM alpine:3.7
+FROM alpine:3.23.2
 MAINTAINER Fred Park <https://github.com/Azure/batch-shipyard>
 
 # copy in files
